@@ -11,6 +11,10 @@
 
 TEST_CASE("Ex1", "[Suma]")
 {
+    INFO("FUNCIONALIDAD ESPERADA: Se espera que tu programación sea capaz de sumar dos números de tipo double y retornar el resultado correcto.");
+    INFO("PROGRAMACIÓN: Función esperada: double suma(double, double). La función debe recibir dos parámetros de tipo double y retornar su suma.");
+    INFO("SUGERENCIA DE PROGRAMACIÓN: Verifica que la función utilice el operador + para sumar los parámetros y que el valor retornado sea la suma de ambos.");
+    
     REQUIRE(suma(1,1) == 2);
 }
 
@@ -20,6 +24,10 @@ TEST_CASE("Ex1", "[Suma]")
 
 TEST_CASE("Ex2", "[resta]")
 {
+    INFO("FUNCIONALIDAD ESPERADA: Se espera que tu programación sea capaz de restar dos números de tipo double y retornar el resultado correcto.");
+    INFO("PROGRAMACIÓN: Función esperada: double resta(double, double). La función debe recibir dos parámetros de tipo double y retornar la resta del primero menos el segundo.");
+    INFO("SUGERENCIA DE PROGRAMACIÓN: Asegúrate de utilizar el operador - para restar el segundo parámetro al primero y retornar el resultado.");
+    
     REQUIRE(resta(5,3) == 2);
 }
 
@@ -29,6 +37,10 @@ TEST_CASE("Ex2", "[resta]")
 
 TEST_CASE("Ex3", "[multiplicacion]")
 {
+    INFO("FUNCIONALIDAD ESPERADA: Se espera que tu programación sea capaz de multiplicar dos números de tipo double y retornar el resultado correcto.");
+    INFO("PROGRAMACIÓN: Función esperada: double multiplica(double, double). La función debe recibir dos parámetros de tipo double y retornar su multiplicación.");
+    INFO("SUGERENCIA DE PROGRAMACIÓN: Utiliza el operador * para multiplicar los parámetros y retorna el resultado.");
+    
     REQUIRE(multiplica(5,3) == 15);
 }
 
@@ -38,6 +50,10 @@ TEST_CASE("Ex3", "[multiplicacion]")
 
 TEST_CASE("Ex4", "[division]")
 {
+    INFO("FUNCIONALIDAD ESPERADA: Se espera que tu programación sea capaz de dividir dos números de tipo double y retornar el resultado correcto.");
+    INFO("PROGRAMACIÓN: Función esperada: double divide(double, double). La función debe recibir dos parámetros de tipo double y retornar el resultado de dividir el primero entre el segundo.");
+    INFO("SUGERENCIA DE PROGRAMACIÓN: Utiliza el operador / para dividir el primer parámetro entre el segundo y retorna el resultado. Considera el manejo de divisiones por cero en aplicaciones reales.");
+    
     REQUIRE(divide(12,3) == 4);
 }
 
